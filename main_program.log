@@ -1,0 +1,37 @@
+2025-12-03 15:05:30,834 [PROCESS:36516] [MAIN-PROGRAM]  * Debugger is active!
+2025-12-03 15:05:30,876 [PROCESS:36516] [MAIN-PROGRAM]  * Debugger PIN: 120-780-555
+2025-12-03 15:05:52,709 [PROCESS:36516] [MAIN-PROGRAM]  * Detected change in 'C:\\CS361\\CS361-Main-Project\\app.py', reloading
+2025-12-03 15:05:54,359 [PROCESS:35264] [MAIN-PROGRAM]  * Debugger is active!
+2025-12-03 15:05:54,405 [PROCESS:35264] [MAIN-PROGRAM]  * Debugger PIN: 120-780-555
+2025-12-03 15:05:58,120 [PROCESS:35264] [MAIN-PROGRAM]  * Detected change in 'C:\\CS361\\CS361-Main-Project\\app.py', reloading
+2025-12-03 15:05:59,771 [PROCESS:22008] [MAIN-PROGRAM] ============================================================
+2025-12-03 15:05:59,775 [PROCESS:22008] [MAIN-PROGRAM] MAIN PROGRAM STARTING
+2025-12-03 15:05:59,776 [PROCESS:22008] [MAIN-PROGRAM] Process ID: 22008
+2025-12-03 15:05:59,777 [PROCESS:22008] [MAIN-PROGRAM] Port: 5001
+2025-12-03 15:05:59,777 [PROCESS:22008] [MAIN-PROGRAM] Microservices (called via HTTP API only):
+2025-12-03 15:05:59,778 [PROCESS:22008] [MAIN-PROGRAM]   - Auth Service: http://localhost:3000
+2025-12-03 15:05:59,779 [PROCESS:22008] [MAIN-PROGRAM]   - Microservice 1: http://localhost:5002
+2025-12-03 15:05:59,779 [PROCESS:22008] [MAIN-PROGRAM]   - Microservice 2: http://localhost:5003
+2025-12-03 15:05:59,780 [PROCESS:22008] [MAIN-PROGRAM]   - Microservice 3: http://localhost:5004
+2025-12-03 15:05:59,781 [PROCESS:22008] [MAIN-PROGRAM] NOTE: All microservices are called via HTTP requests, NOT direct imports
+2025-12-03 15:05:59,782 [PROCESS:22008] [MAIN-PROGRAM] ============================================================
+2025-12-03 15:05:59,822 [PROCESS:22008] [MAIN-PROGRAM]  * Debugger is active!
+2025-12-03 15:05:59,869 [PROCESS:22008] [MAIN-PROGRAM]  * Debugger PIN: 120-780-555
+2025-12-03 15:08:21,822 [PROCESS:22008] [MAIN-PROGRAM]  * Detected change in 'C:\\CS361\\CS361-Main-Project\\microservice2_credentials\\app.py', reloading
+2025-12-03 15:08:23,540 [PROCESS:4540] [MAIN-PROGRAM] ============================================================
+2025-12-03 15:08:23,542 [PROCESS:4540] [MAIN-PROGRAM] MAIN PROGRAM STARTING
+2025-12-03 15:08:23,543 [PROCESS:4540] [MAIN-PROGRAM] Process ID: 4540
+2025-12-03 15:08:23,543 [PROCESS:4540] [MAIN-PROGRAM] Port: 5001
+2025-12-03 15:08:23,544 [PROCESS:4540] [MAIN-PROGRAM] Microservices (called via HTTP API only):
+2025-12-03 15:08:23,545 [PROCESS:4540] [MAIN-PROGRAM]   - Auth Service: http://localhost:3000
+2025-12-03 15:08:23,546 [PROCESS:4540] [MAIN-PROGRAM]   - Microservice 1: http://localhost:5002
+2025-12-03 15:08:23,546 [PROCESS:4540] [MAIN-PROGRAM]   - Microservice 2: http://localhost:5003
+2025-12-03 15:08:23,547 [PROCESS:4540] [MAIN-PROGRAM]   - Microservice 3: http://localhost:5004
+2025-12-03 15:08:23,548 [PROCESS:4540] [MAIN-PROGRAM] NOTE: All microservices are called via HTTP requests, NOT direct imports
+2025-12-03 15:08:23,549 [PROCESS:4540] [MAIN-PROGRAM] ============================================================
+2025-12-03 15:08:23,598 [PROCESS:4540] [MAIN-PROGRAM]  * Debugger is active!
+2025-12-03 15:08:23,646 [PROCESS:4540] [MAIN-PROGRAM]  * Debugger PIN: 120-780-555
+2025-12-03 15:10:11,380 [PROCESS:4540] [MAIN-PROGRAM] 127.0.0.1 - - [03/Dec/2025 15:10:11] "GET / HTTP/1.1" 200 -
+2025-12-03 15:10:11,859 [PROCESS:4540] [MAIN-PROGRAM] 127.0.0.1 - - [03/Dec/2025 15:10:11] "GET /api/session HTTP/1.1" 200 -
+2025-12-03 15:10:11,892 [PROCESS:4540] [MAIN-PROGRAM] 127.0.0.1 - - [03/Dec/2025 15:10:11] "GET /api/passwords HTTP/1.1" 200 -
+2025-12-03 15:10:14,420 [PROCESS:4540] [MAIN-PROGRAM] 127.0.0.1 - - [03/Dec/2025 15:10:14] "POST /api/logout HTTP/1.1" 200 -
